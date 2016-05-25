@@ -55,5 +55,14 @@ public class KataFizzBuzzTest {
 	public void contieneCinco(){
 		String result = methods.fizzbuzz(52);
 		assertEquals("Buzz", result);
+	}	
+		
+	/**
+	 * Test para cuando el numero contiene 3 devuelva 'Fizz'.
+	 */
+	@Test
+	public void contieneTres(){
+		String result = methods.fizzbuzz(13);
+		assertEquals("Fizz", result);
 	}
 }
