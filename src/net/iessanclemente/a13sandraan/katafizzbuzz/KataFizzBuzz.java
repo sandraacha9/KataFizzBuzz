@@ -26,7 +26,7 @@ public class KataFizzBuzz {
 		String resultado = ""+num;
 		if(num%3 == 0 && num%5 == 0){
 			resultado = "FizzBuzz";
-		}else if(num%3 == 0){
+		}else if(num%3 == 0 || (num+"").contains("3")){
 			resultado = "Fizz";
 		}else if(num%5 == 0){
 			resultado = "Buzz";
