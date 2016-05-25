@@ -28,7 +28,7 @@ public class KataFizzBuzz {
 			resultado = "FizzBuzz";
 		}else if(num%3 == 0){
 			resultado = "Fizz";
-		}else if(num%5 == 0){
+		}else if(num%5 == 0 || (num+"").contains("5")){
 			resultado = "Buzz";
 		}
 		return resultado;
