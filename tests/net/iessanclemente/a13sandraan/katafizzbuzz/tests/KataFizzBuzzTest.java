@@ -38,4 +38,13 @@ public class KataFizzBuzzTest {
 		String result = methods.fizzbuzz(5);
 		assertEquals("Buzz", result);
 	}
+	
+	/**
+	 * Test para cuando el numero es multiplo de 3 y 5, tiene que devolver 'FizzBuzz'.
+	 */
+	@Test
+	public void multiploTresCinco(){
+		String result = methods.fizzbuzz(15);
+		assertEquals("FizzBuzz", result);
+	}
 }
